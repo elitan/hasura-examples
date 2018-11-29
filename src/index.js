@@ -15,9 +15,9 @@ import App from './App';
 
 
 // apollo client stuff
-const base_host = '188.166.118.40' // TODO: Fill in host of Hasura server
-const wsurl = `ws://${base_host}/v1alpha1/graphql`;
-const httpurl = `http://${base_host}/v1alpha1/graphql`;
+const base_host = 'demo.hasura.se' // TODO: Fill in host of Hasura server
+const wsurl = `wss://${base_host}/v1alpha1/graphql`;
+const httpurl = `https://${base_host}/v1alpha1/graphql`;
 
 const headers = {
 	'Content-Type': 'application/json',
